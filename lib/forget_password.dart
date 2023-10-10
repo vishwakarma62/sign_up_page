@@ -47,7 +47,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                           height: 170,
                           width: 170,
                           child: Image.asset(
-                            "assets/giff/outer.gif",
+                            "assets/icons/newlogo.png",
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -224,7 +224,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                           Container(
                             child: InkWell(
                                 onTap: () {
-                                  Navigator.push(context,
+                                  Navigator.pushReplacement(context,
                                       MaterialPageRoute(builder: (context) {
                                     return LoginPage();
                                   }));
